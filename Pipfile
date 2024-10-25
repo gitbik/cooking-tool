@@ -8,13 +8,9 @@ streamlit = "*"
 pandas = "*"
 numpy = "*"
 openpyxl = "*"
-plotly.express = "*"
-matplotlib.pyplot = "*"
-io = "*"
-functools = "*"
-decimal = "*"
-PIL = "*"
-urllib.request = "*"
+plotly = "*"
+matplotlib = "*"
+pillow = "*"
 
 [dev-packages]
 
