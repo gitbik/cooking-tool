@@ -35,7 +35,8 @@ if language_select=="Hindi":
     col1, col2 = st.columns([1,6]) # Create two columns
 
     # Display the resized image in the first column
-    col1.image(resized_img, use_column_width=True)
+    #col1.image(resized_img, use_column_width=True)
+    col1.image(resized_img, use_container_width=True)
 
     # Display the title in the second column
     col2.title('खाना पकाने की प्रौद्योगिकियों का तकनीकी आर्थिक विश्लेषण')
